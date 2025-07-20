@@ -1,0 +1,31 @@
+:root {
+   --cinza: #EBEBEC;
+   --preto: #272727;
+   --rosa: #F06187;
+   --verde: #36D59F;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: var(--cinza);
+   /* display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:space-between;
+   height: 100vh;
+   width: 100%;
+   border: solid rebeccapurple; */
+}
+
+body,
+input,
+textarea,
+button {
+   font-size: 1rem;
+   font-family: sans-serif;
+}
